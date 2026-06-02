@@ -46,7 +46,9 @@ We'll use two LLM providers. Both have free tiers.
 
 **Groq** (for text models): Generate an API key at https://console.groq.com/keys.
 
+
 **Google Gemini** (for vision models): Get the API key from here: https://www.yellkey.com/wonder
+
 
 Once you have both keys, open your `.Renviron` file in RStudio by running this in the console:
 
@@ -57,8 +59,7 @@ usethis::edit_r_environ()
 Add these two lines, replacing the placeholder values with your actual keys (no quotemarks:
 
 ```
-GROQ_API_KEY=your_key_here
-GOOGLE_API_KEY=your_key_here
+
 ```
 
 Save the file, then restart R (Session menu in RStudio) so the keys take effect.
